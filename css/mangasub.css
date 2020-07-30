@@ -12,7 +12,7 @@ body {
   background-size: 100% 100%;
   font-family: 'Play', sans-serif;
   font-size: 10px;
-  height: 100vh; /*Importante para manter o background por toda a tela*/
+  height: 103vh; /*Importante para manter o background por toda a tela*/
 }
 
 .topnav {
@@ -64,7 +64,7 @@ body {
     color: whitesmoke;
     padding: 1em;
     text-align: center;
-    font-size: 35px;
+    font-size: 30px;
     }
     
     .subtitle {
@@ -87,8 +87,8 @@ body {
   }
   
   .knzbn {
-    height: 300px;
-    width: 200px;
+    height: 270px;
+    width: 180px;
   }
 
   .gdq {
