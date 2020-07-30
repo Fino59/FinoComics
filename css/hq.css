@@ -1,0 +1,142 @@
+/*Sof Reset do CSS*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  backdrop-filter: blur(1px);
+  background-color: gray;
+  background-image: url("https://i.imgur.com/mmhIUYY.jpg");
+  background-size: 100% 100%;
+  font-family: 'Play', sans-serif;
+  font-size: 10px;
+  height: 153vh; /*Importante para manter o background por toda a tela*/
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: rgba(255, 255, 255, 0.205);
+  position: relative;
+}
+
+.topnav #myLinks {
+  display: none;
+}
+
+.topnav a {
+  float: left;
+  color: rgb(0, 0, 0);
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.topnav a.icon {
+  float: right;
+}
+
+.topnav a:hover {
+  background-color: rgba(0, 0, 0, 0.308);
+  color: rgb(255, 125, 4);
+}
+
+.active {
+  background-color: #ff5e00;
+  /*color: rgb(255, 255, 255);*/
+}
+  
+  
+  .img-portfolio {
+    height: 150px;
+    width: 350px;
+    transition: 0.3s ease-in-out;
+    object-fit: cover;
+  }
+ 
+  .portfolio {
+    padding: 2em;
+    height: 95vh;
+  }
+  
+  .choose {
+    font-family: 'Permanent Marker', cursive;
+    color: #f84f01;
+    padding: 1.5em;
+    text-align: center;
+    font-size: 40px;
+    }
+  
+  .hq .grid {
+    text-align: center;
+    display: grid;
+    gap: 1em;
+    border-bottom: 0em;
+  }  
+  
+  .gdq {
+    height: 50px;
+    width: 100px;
+    position: absolute;
+      bottom: 15px;                 /* adjust this value to move link up or down */
+      left: 50%;                   /* center link horizontally */
+      transform: translateX(-50%); /* center link horizontally */
+  }
+  
+  /*Para manter funcional a area de links*/
+ 
+  @media (min-width: 400px) {
+    .hq .grid {
+      display: grid;
+      gap: 1em;
+      text-align: center;
+      grid-template-columns: 200px 200px;
+      justify-content: center;
+    }
+  }
+
+  @media (min-width: 400px) {
+    .img-portfolio {
+      height: 80px;
+      width: 200px;
+      transition: 0.3s ease-in-out;
+    }
+  }
+ 
+  @media (min-width: 600px) {
+    .hq .grid {
+      display: grid;
+      gap: 1em;
+      text-align: center;
+      grid-template-columns: 250px 250px;
+      justify-content: center;
+    }
+  }
+
+  @media (min-width: 600px) {
+    .img-portfolio {
+      height: 130px;
+      width: 230px;
+      transition: 0.3s ease-in-out;
+    }
+  }
+  
+  /*Para manter funcional a area de links*/
+  @media (min-width: 1000px) {
+    .hq .grid {
+      display: grid;
+      gap: 1em;
+      text-align: center;
+      grid-template-columns: repeat(3, 350px);
+      justify-content: center;
+    }
+  }
+  
+  @media (min-width: 1000px) {
+    .img-portfolio {
+      height: 150px;
+      width: 350px;
+    }
+  }
+  

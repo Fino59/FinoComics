@@ -1,0 +1,178 @@
+/*Sof Reset do CSS*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  backdrop-filter: blur(0.8px);
+  background-color: gray;
+  background-image: url("https://i.imgur.com/mmhIUYY.jpg");
+  background-size: 100% 100%;
+  font-family: 'Play', sans-serif;
+  font-size: 10px;
+  height: 100vh; /*Importante para manter o background por toda a tela*/
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: rgba(255, 255, 255, 0.205);
+  position: relative;
+}
+
+.topnav #myLinks {
+  display: none;
+}
+
+.topnav a {
+  float: left;
+  color: rgb(0, 0, 0);
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.topnav a.icon {
+  float: right;
+}
+
+.topnav a:hover {
+  background-color: rgba(0, 0, 0, 0.308);
+  color: rgb(255, 125, 4);
+}
+
+.active {
+  background-color: #ff5e00;
+  /*color: rgb(255, 255, 255);*/
+}
+  
+  .img-portfolio {
+    height: 150px;
+    width: 100px;
+    object-fit: cover;
+    transition: 0.3s ease-in-out;
+  }
+  
+  .manga {
+    padding: 2em;
+    height: 95vh;
+  }
+  
+  .choose {
+    font-family: 'Permanent Marker', cursive;
+    color: whitesmoke;
+    padding: 1em;
+    text-align: center;
+    font-size: 35px;
+    }
+    
+    .subtitle {
+        font-family: 'Permanent Marker', cursive;
+        color: #ff5e00;
+        padding: 0.7em;
+        text-align: center;
+        font-size: 25px;
+    }
+  
+  .manga .grid {
+    text-align: center;
+    display: grid;
+    gap: 1em;
+    border-bottom: 0em;
+  }  
+
+  .zenban {
+    text-align: center; 
+  }
+  
+  .knzbn {
+    height: 300px;
+    width: 200px;
+  }
+
+  .gdq {
+    height: 50px;
+    width: 100px;
+    position: absolute;
+      bottom: 15px;                 /* adjust this value to move link up or down */
+      left: 50%;                   /* center link horizontally */
+      transform: translateX(-50%); /* center link horizontally */
+  }
+  
+  /*Para manter funcional a area de links*/
+  @media (min-width: 200px) {
+    .manga .grid {
+      color: #DAA520;
+      font-family: 'Play', sans-serif;
+      display: grid;
+      gap: 2em;
+      text-align: center;
+      grid-template-columns: 100px 100px;
+      justify-content: center;
+    }
+  }
+  
+  @media (min-width: 200px) {
+    .img-portfolio {
+    height: 150px;
+    width: 100px;
+    transition: 0.3s ease-in-out;
+   }
+}
+ 
+  @media (min-width: 400px) {
+    .manga .grid {
+      color: #DAA520;
+      font-family: 'Play', sans-serif;
+      display: grid;
+      gap: 2em;
+      text-align: center;
+      grid-template-columns: repeat(2, 160px);
+      justify-content: center;
+    }
+  }
+  
+  @media (min-width: 400px) {
+    .img-portfolio {
+    height: 220px;
+    width: 150px;
+    transition: 0.3s ease-in-out;
+    }
+ }
+
+/*Caso a tela tenha pelo menos 400px vai carregar esse estilo*/
+@media (min-width: 400px) {
+  body {
+    font-size: 12px;
+  }
+}
+
+/*Caso a tela tenha pelo menos 600px vai carregar esse estilo*/
+@media (min-width: 600px) {
+  body {
+    font-size: 16px;
+  }
+}
+
+/*Caso a tela tenha pelo menos 800px vai carregar esse estilo*/
+@media (min-width: 800px) {
+  body {
+    font-size: 20px;
+  }
+}
+  
+  /*Para manter funcional a area de links
+  @media (min-width: 1000px) {
+    .portfolio .grid {
+      color: #DAA520;
+      font-family: 'Play', sans-serif;
+      display: grid;
+      gap: 1em;
+      text-align: center;
+      grid-template-columns: 250px 250px 250px 250px;
+      justify-content: center;
+    }
+  }*/
+  
+  
