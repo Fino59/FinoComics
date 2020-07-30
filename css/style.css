@@ -75,8 +75,8 @@ body {
 
 .gdq {
   background-color: rgba(0, 0, 0, 0.185);
-  height: 80px;
-  width: 138px;
+  height: 63px;
+  width: 114px;
   position: absolute;
   bottom: 2px;                 /* adjust this value to move link up or down */
   left: 50%;                   /* center link horizontally */
