@@ -52,7 +52,7 @@ body {
     height: 150px;
     width: 350px;
     transition: 0.3s ease-in-out;
-    object-fit: cover;
+    /*object-fit: cover;*/
   }
  
   .portfolio {
@@ -85,6 +85,23 @@ body {
   }
   
   /*Para manter funcional a area de links*/
+  @media (min-width: 200px) {
+    .hq .grid {
+      display: grid;
+      gap: 1em;
+      text-align: center;
+      grid-template-columns: 160px 160px;
+      /*justify-content: center;*/
+    }
+  }
+  
+  @media (min-width: 200px) {
+    .img-portfolio {
+    height: 100px;
+    width: 180px;
+    }
+}
+
  
   @media (min-width: 400px) {
     .hq .grid {
