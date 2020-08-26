@@ -27,7 +27,7 @@
   .topnav a {
     float: left;
     color: rgb(0, 0, 0);
-    padding: 14px 14px;
+    padding: 15px 12px;
     text-decoration: none;
     font-size: 21px;
   }
@@ -51,6 +51,11 @@
     width: 150px;
     transition: 0.3s ease-in-out;
     border-radius: 20px;
+  }
+
+  .gdq-logo {
+    height: 20px;
+    width: 50px;
   }
 
   .portfolio {
