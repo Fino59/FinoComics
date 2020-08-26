@@ -28,9 +28,9 @@
   .topnav a {
     float: left;
     color: rgb(0, 0, 0);
-    padding: 14px 16px;
+    padding: 14px 14px;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 21px;
   }
   
   .topnav a.icon {
@@ -50,7 +50,11 @@
     .img-portfolio {
       height: 150px;
       width: 100px;
-      object-fit: cover;
+    }
+
+    .img-one {
+      height: 280px;
+      width: 200px;
     }
     
     .manga {
@@ -61,7 +65,7 @@
     .choose {
       font-family: 'Permanent Marker', cursive;
       color: whitesmoke;
-      padding: 2em;
+      padding: 1em;
       text-align: center;
       font-size: 35px;
       }
@@ -85,32 +89,23 @@
       text-align: center; 
     }
     
-    .gdq {
-      height: 50px;
-      width: 100px;
-      position: absolute;
-        bottom: 15px;                 /* adjust this value to move link up or down */
-        left: 50%;                   /* center link horizontally */
-        transform: translateX(-50%); /* center link horizontally */
-    }
-    
-    /*Para manter funcional a area de links*/
-    @media (min-width: 200px) {
+      /*Para manter funcional a area de links*/
+    @media (min-width: 240px) {
       .manga .grid {
         color: #DAA520;
         font-family: 'Play', sans-serif;
         display: grid;
-        gap: 2em;
+        gap: 1em;
         text-align: center;
-        grid-template-columns: 100px 100px;
+        grid-template-columns: 120px 120px;
         justify-content: center;
       }
     }
     
     @media (min-width: 200px) {
       .img-portfolio {
-      height: 150px;
-      width: 100px;
+      height: 170px;
+      width: 120px;
       transition: 0.3s ease-in-out;
      }
   }

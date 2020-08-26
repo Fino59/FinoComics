@@ -13,7 +13,7 @@
     background-repeat: repeat-y;
     font-family: 'Play', sans-serif;
     font-size: 10px;
-    height: 140vh; /*Importante para manter o background por toda a tela*/
+    height: 110vh; /*Importante para manter o background por toda a tela*/
   }
   
   .topnav {
@@ -29,9 +29,9 @@
   .topnav a {
     float: left;
     color: rgb(0, 0, 0);
-    padding: 14px 16px;
+    padding: 14px 14px;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 21px;
   }
   
   .topnav a.icon {
@@ -51,7 +51,6 @@
     .img-portfolio {
       height: 150px;
       width: 100px;
-      object-fit: cover;
       transition: 0.3s ease-in-out;
     }
     
@@ -63,7 +62,7 @@
     .choose {
       font-family: 'Permanent Marker', cursive;
       color: #ffffff;
-      padding: 1em;
+      padding: 0em;
       text-align: center;
       font-size: 35px;
       }
